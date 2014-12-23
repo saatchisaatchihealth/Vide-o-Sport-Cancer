@@ -1,0 +1,30 @@
+{
+	"slides" : 
+	{
+		"slide_01" : 
+		{
+			"name" : "Intro Eylea",
+			"file" : "slide_01.html",
+			"valid" : true
+		}
+
+	},
+	"structures" : 
+	{
+		"presentation1":
+		{
+			"content":["slide_01"],
+			"name":"presentation1",
+			"type":"slideshow",
+			"valid":true
+		},
+		"flowGeneral" : 
+	  	{
+			"name" : "Default slideshow",
+			"type" : "collection",
+			"content" : ["presentation1"],
+			"valid" : true
+		}
+	},
+	"storyboard" : ["flowGeneral"]
+}

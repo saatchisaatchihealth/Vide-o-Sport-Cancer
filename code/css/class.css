@@ -1,0 +1,234 @@
+/* RESET CSS */
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}*/
+/* A ENLEVER DANS AGNITIO */
+body
+{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	font-family: Arial;
+	/*background:url('../../content/img/slide_01/bg.png') 0px 0px no-repeat;*/
+	background-size: 1024px 768px;
+	background-color:#FFF; 
+}
+
+
+
+/* Global slide definitions */
+#slideshows {
+	position:fixed;
+}
+.slide {
+	margin-right:0;
+	padding-bottom:0;
+	-webkit-transform: translate3d(0,0,0);
+	display: block;
+}
+.basic {
+	width:100%; height:100%; position:relative;
+}
+
+.slide .slide-content { float:left; }
+
+/* Disable all user selection */ 
+* { -webkit-user-select:none; margin:0; padding: 0;background-size: contain;}
+
+.basic {
+	width:100%; height:100%; position:relative;
+}
+
+.free
+{
+	display: block;
+	position: absolute;
+}
+/* UI CSS */
+
+.miih_free
+{
+	display: block;
+	position: absolute;
+	z-index: 3;
+}
+.miih_button
+{
+	display: block;
+	position: absolute;
+	min-width: 50px;
+	min-height: 50px;
+	z-index: 4;
+}
+.miih_popup
+{
+	background-size: cover;
+	opacity:0;
+	display: block;
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	top:0px;
+	-webkit-transition-property:opacity;
+	-webkit-transition-duration:0.5s;
+	-webkit-transition-timing-function:ease;
+	z-index: 3;
+}
+
+/* general stylesheet */
+.absolute{
+	position:absolute;
+	z-index:2147483647;
+}
+
+/* ui style */
+.free
+{
+	background-size: cover;
+	display: block;
+	position: absolute;
+	z-index: 3;
+	-webkit-transition-property:all;
+	-webkit-transition-duration:0.5s;
+	-webkit-transition-timing-function:linear;
+}
+
+.anim
+{
+	background-size: cover;
+	display: block;
+	position: absolute;
+	z-index: 3;
+	opacity: 0;
+	left:0px;
+	top:0px;
+	width:0px;
+	height:0px;
+	-webkit-transition-property:all;
+	-webkit-transition-duration:0.5s;
+	-webkit-transition-timing-function:ease;
+}
+
+.popup
+{
+	background-size: cover;
+	opacity:0;
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	z-index: 3;
+}
+
+/* SLIDES */
+#popup_button, .popup_button, .popup_exit{
+	width:50px;
+	height:50px;
+	display: block;
+	position: absolute;
+}
+
+.popup_button
+{
+	z-index:4;
+}
+.popup_exit
+{
+	z-index:0;
+}
+.multipopup{
+	z-index: -1;
+	opacity: 0;
+/*	-webkit-transition-property:all;
+	-webkit-transition-duration:0.5s;
+	-webkit-transition-timing-function:linear;*/
+}
+
+.vague_bas
+{
+	position: absolute;
+	width:452px;
+	height:111px;
+	right:0;
+	bottom:0;
+	z-index: 50;
+}
+
+#biblio8_openBtn, #biblio2_openBtn, #biblio9_openBtn, #biblio13_openBtn, #biblio17_openBtn, #biblio25_openBtn, #biblio28_openBtn, #biblio31_openBtn, #biblio32_openBtn, #biblio33_openBtn, #biblio34_openBtn, #biblio41_openBtn, #biblio42_openBtn, #biblio43_openBtn, #biblio44_openBtn, #biblio46_openBtn, #biblio47_openBtn, #biblio48_openBtn, #biblio55_openBtn, #biblio56_openBtn, #biblio57_openBtn, #biblio58_openBtn, #biblio59_openBtn, #biblio60_openBtn
+{
+	position: absolute;
+	width:40px;
+	height:40px;
+	left:53px;
+	top:707px;
+}
+
+#piq_8, #piq_2, #piq_9, #piq_13, #piq_17, #piq_25, #piq_28, #piq_31, #piq_32, #piq_33, #piq_34, #piq_41, #piq_42, #piq_43, #piq_44, #piq_46, #piq_47, #piq_48, #piq_55, #piq_56, #piq_57, #piq_58, #piq_59, #piq_60
+{
+	position: absolute;
+	width:40px;
+	height:40px;
+	left:131px;
+	top:707px;
+	z-index: 5;
+}
+
+#bon_8, #bon_9
+{
+	position: absolute;
+	width:96px;
+	height:40px;
+	left:199px;
+	top:707px;
+	z-index: 5;
+}
+
+#bon_13, #bon_17, #bon_25, #bon_28, #bon_31, #bon_32, #bon_33, #bon_34, #bon_41, #bon_42, #bon_43, #bon_44, #bon_55, #bon_56, #bon_57, #bon_58, #bon_59, #bon_60
+{
+	position: absolute;
+	width:96px;
+	height:40px;
+	left:285px;
+	top:707px;
+	z-index: 5;
+}
+
+/* MENU */
+
+#menu{
+	-webkit-transition-property:-webkit-transform;
+	-webkit-transition-duration:0s;
+	-webkit-transform:translate3d(0px,-768px,0px);
+}
+
+.menuBtn
+{
+	z-index: 6;
+}
+
+
+/* DRAG TEST */
+
+#drag_1
+{
+	background-color: red;
+	width:50px;
+	height:50px;
+}
+
+
+

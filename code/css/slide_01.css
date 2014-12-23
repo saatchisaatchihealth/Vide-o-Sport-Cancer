@@ -1,0 +1,20 @@
+#slide_01
+{
+    background: url("../../content/img/slide_01/bg.png") 0px 0px no-repeat;
+	background-size: 1024px 768px;
+    width: 1024px;
+    height: 768px;
+    top: 0px;
+    -webkit-transition-property: background;
+	-webkit-timing-function: ease;
+	-webkit-transition-duration:0s;
+}
+#video
+{
+	position: absolute;
+	width:1024px;
+	height:768px;
+	left:0px;
+	top:0px;
+	/*border: 1px solid green;*/
+}

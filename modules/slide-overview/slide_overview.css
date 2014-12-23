@@ -1,0 +1,30 @@
+#slide_overview{
+	-webkit-transform: translate3d(0,0,0);
+}
+
+#slide_overview h1{
+	margin-left:0;
+	margin-top:-25px;
+	color:white;
+}
+
+#slide_overview .basic{
+	padding-left:60px;
+}
+
+.overview-thumb{
+	color:white;
+	overflow:hidden;
+	float:left;
+	width:181px;
+	height:140px;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	display: -webkit-box;
+}
+
+@media all and (orientation:portrait) {
+	#slide_overview .basic{
+		padding-left:25px;
+	}
+}
